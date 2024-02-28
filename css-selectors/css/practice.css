@@ -1,0 +1,57 @@
+*{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: lightskyblue;
+    font-weight: normal;
+}
+
+h1.hover{
+    color: palevioletred;
+}
+
+h2{
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.titlegrey{
+    color: gray;
+}
+
+.porange{
+    color: orange;
+}
+
+.Purple{
+    color: purple;
+}
+
+ol li{
+    color: palevioletred
+}
+
+.blie{
+    color: blue;
+}
+
+.ital{
+    font-style: italic;
+}
+
+.maju{
+    font-size: larger;
+}
+
+.noudl{
+    text-decoration: none;
+}
+
+.cent li{
+    text-align: center;
+    list-style: none;
+}

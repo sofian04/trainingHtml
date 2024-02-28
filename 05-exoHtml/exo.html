@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exercice</title>
+    <style>
+      td {
+        border: 2px solid black;
+        padding: 30px 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Un peu de pratique générale</h1>
+      <hr />
+      <h2>Introduction</h2>
+      <h3>Nous avons vu les principales balises HTML</h3>
+      <p>
+        Les paragraphes pour écrire du texte et mettre en avant
+        <strong>certains mots</strong> et quelques notions de
+        <i>bonnes pratique !</i>
+      </p>
+      <h3>Les règles de nommages</h3>
+      <ul>
+        <li>pas de caractères spéciaux ou avec accent</li>
+        <li>pas d'espace entre les mots</li>
+        <li>tout en minuscule</li>
+        <li>et on separe les mots avec -</li>
+      </ul>
+      <h3>on a vue qu'on pouvait mettre des images, des liens cliquables</h3>
+      <p>on peut meme rendre une image cliquable</p>
+      <a href="https://www.pexels.com/fr-fr/" target="_blank"
+        ><img src="img/boule.jpg" alt="une boule"
+      /></a>
+      <hr />
+
+      <h2>Les tableaux</h2>
+      <h3>Les languages que l'on voit cette semaine</h3>
+      <table>
+        <tr>
+          <td><strong> HTML</strong></td>
+          <td><strong> CSS</strong></td>
+        </tr>
+      </table>
+      <hr />
+      <h2>Les formulaires</h2>
+      <form>
+        <div>
+          <label for="name">nom</label>
+          <input type="text" id="name" />
+        </div>
+        <div>
+          <label for="pswrd">mot de passe</label>
+          <input type="password" id="pswrd" required/>
+        </div>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Supprimer" required>
+      </form>
+    </div>
+  </body>
+</html>
