@@ -1,0 +1,72 @@
+/* etoile est le selecteur universel, il cible tous les elements html */
+* {
+  background-color: #640f86;
+  /* on opert un reset (on reinitialise les valeurs et comportement par defaut */
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.firstDiv {
+
+  /* la valeur par defaut d'un element block est {display:block} */
+  display: block;
+  /* change la couleur du texte */
+  color: burlywood;
+
+  /* Permet de metre une couleur de fond  */
+  background-color: #640f86;
+
+  /* Hauteur */
+  height: 300px;
+
+  /* Largeur */
+  width: 300px;
+
+  /* Margin sert à mettre de la marge extèrieur, il y a plein de raccouricis */
+  /* margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px; */
+  /* margin: 100px 100px 0px 100px;
+    margin: 100px 200px;
+    margin: 200px; */
+
+  /* {margin: auto;} permet de centrer un block dans la largeur */
+  margin: auto;
+
+  /* padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom:30px;
+    padding-left: 30px;
+    padding: 40px 40px 40px 40px;
+    padding: 30px 50px; */
+  padding: 50px;
+
+  border: 10px solid burlywood;
+  border-radius: 10px;
+}
+
+h1 {
+  background-color: #640f86;
+  color: burlywood;
+  width: 450px;
+  text-align: center;
+  margin: 100px auto;
+  border: 5px solid burlywood;
+  border-radius: 10px;
+}
+
+.circle{
+    background-color: burlywood;
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    /* la propriete border radius avec la valeur 50% creer un cercle */
+    border-radius: 100px;
+    margin:auto;
+    padding: 50px 30px;
+    color: #640f86;
+    /* {box-shadow} permet de creer une ombre */
+    box-shadow:5px 5px 20px rgb(204, 164, 90);
+}
